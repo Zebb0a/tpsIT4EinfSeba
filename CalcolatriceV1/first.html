@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Il calcolatore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./calcolatrice.png">
+</head>
+<body>
+        <form action="shhh" method="post">
+            <div class="bg">
+                <h1>Calcolatrice</h1>
+                <br>
+                <input class="case" type="text" id="value1" placeholder="inserisci num 1">
+                <br>
+                <input class="case" type="text" id="value2" placeholder="inserisci num 2">
+                <br>
+                <br> 
+                <input class="cont" type="button" value="+" onclick="add()">
+                <input class="cont" type="button" value="-" onclick="sott()">
+                <input class="cont" type="button" value="*" onclick="molt()">
+                <input class="cont" type="button" value="/" onclick="divi()">
+                <br>
+                <br>
+                <div class="contain">
+                    <p id="result"></p>
+                </div> 
+            </div>
+        </form>
+</body>
+    <script src="codice.js"></script>
+</html>
